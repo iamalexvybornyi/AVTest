@@ -22,7 +22,7 @@ public class FirstTests {
 
     @Test
     public void openHomePage(){
-        Logger.getAnonymousLogger().info("Opening home page");
-        driver.get("http://automationpractice.com/index.php");
+        Logger.getAnonymousLogger().info("Opening url of home page");
+        driver.get("http://automationpractice.com/");
     }
 }
