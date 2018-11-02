@@ -11,9 +11,15 @@
     <properties>
         <aspectj.version>1.8.10</aspectj.version>
         <compiler.version>1.7</compiler.version>
+        <selenium.version>3.8.1</selenium.version>
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>${selenium.version}</version>
+        </dependency>
         <dependency>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-junit4</artifactId>
@@ -34,6 +40,21 @@
             <artifactId>junit-dataprovider</artifactId>
             <version>1.10.0</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>2.11.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.11.1</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-chain</groupId>
+            <artifactId>commons-chain</artifactId>
+            <version>1.2</version>
         </dependency>
     </dependencies>
 
